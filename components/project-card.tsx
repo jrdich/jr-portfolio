@@ -63,7 +63,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             ))}
           </div>
 
-          <Button asChild className="w-full">
+          {/* <Button asChild className="w-full">
             <a
               href={project.link}
               target="_blank"
@@ -73,7 +73,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               View Project
               <ExternalLink className="h-4 w-4" />
             </a>
-          </Button>
+          </Button> */}
         </CardContent>
       </Card>
     </motion.div>

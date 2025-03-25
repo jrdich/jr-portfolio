@@ -44,7 +44,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-lg font-medium">Email</h3>
-                <p className="text-muted-foreground">contact@example.com</p>
+                <p className="text-muted-foreground">humsschavaria13ict@gmail.com</p>
               </div>
             </div>
 
@@ -54,13 +54,21 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-lg font-medium">Phone</h3>
-                <p className="text-muted-foreground">+63 123 456 7890</p>
+                <p className="text-muted-foreground">09930522381</p>
               </div>
             </div>
           </div>
 
           <div className="h-[400px] overflow-hidden rounded-lg border shadow-sm">
-            <GoogleMap location="Bangate, Barcelona, Sorsogon" />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!4v1742912030919!6m8!1m7!1srLKS0z6riszV9f0u3iV9ZA!2m2!1d12.81192708860995!2d124.1440917616608!3f9.177723760396255!4f-20.36479377377701!5f0.7820865974627469"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </div>

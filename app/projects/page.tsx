@@ -9,18 +9,18 @@ const projects = [
     id: "ecommerce",
     title: "Ecommerce Platform",
     description:
-      "A fully functional online store with product catalog, shopping cart, user authentication, and payment processing.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Next.js", "React", "Tailwind CSS", "AWS", "Stripe"],
+      "A fully functional online store with organic product catalog, shopping cart, user authentication, and payment processing.",
+    image: "/omph-img.jpg",
+    tags: ["Next.js", "Tailwind CSS", "Firestore", "Firebase", "Node.js"],
     link: "#",
   },
   {
     id: "marketplace",
-    title: "Marketplace",
+    title: "Marketplace Platform",
     description:
       "A dynamic marketplace connecting buyers and sellers with real-time messaging, listings management, and secure transactions.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["React", "Node.js", "MongoDB", "WebSockets", "AWS"],
+    image: "/marketplace-img.jpg",
+    tags: ["Next.js", "Tailwind CSS", "Node.js", "AWS Services" ],
     link: "#",
   },
   {
@@ -28,8 +28,8 @@ const projects = [
     title: "Content Management System",
     description:
       "A robust CMS with full customization options, content scheduling, user roles, and analytics dashboard.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Next.js", "TypeScript", "AWS", "DynamoDB", "GraphQL"],
+    image: "/cms-img.jpg",
+    tags: ["Next.js", "Node.js", "AWS Services", "Tailwind CSS"],
     link: "#",
   },
 ]
@@ -50,7 +50,7 @@ export default function ProjectsPage() {
         </Button>
 
         <div className="mb-12 text-center">
-          <h1 className="mb-4 text-4xl font-bold md:text-5xl">Featured Projects</h1>
+          <h1 className="mb-4 text-4xl font-bold md:text-5xl">Latest Projects</h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
             Explore my latest work showcasing expertise in frontend development, responsive design, and modern web
             technologies.

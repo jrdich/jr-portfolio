@@ -34,8 +34,21 @@ export default function ResumePage() {
           <p className="text-lg text-muted-foreground">Frontend Developer with expertise in modern web technologies</p>
         </div>
 
+        {/* Scroll Indicator */}
+        <div className="absolute top-72 left-1/2 z-10 -translate-x-1/2 animate-bounce">
+            <div className="flex flex-col items-center">
+              <span className="mb-2 text-sm text-muted-foreground">Hover It</span>
+              <div className="h-10 w-6 rounded-full border-2 border-primary/50">
+                <div className="mt-2 h-2 w-2 animate-pulse rounded-full bg-primary mx-auto"></div>
+              </div>
+            </div>
+          </div>
+
         <div className="space-y-12">
           <ResumeSection title="Working Experience">
+
+            
+            
             <div className="space-y-8">
               <div className="group relative rounded-lg border p-6 transition-all duration-300 hover:shadow-md">
                 <div className="mb-4 flex flex-wrap items-start justify-between gap-2">
