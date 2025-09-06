@@ -6,7 +6,7 @@ export default function ResumeDetails() {
       <section>
         <h3 className="mb-4 text-xl font-semibold">Profile</h3>
         <p className="text-muted-foreground">
-          Detail-oriented and innovative Associate Frontend Developer with 1 year of experience in building responsive,
+          Detail-oriented and innovative Associate Frontend Developer with 2 years of experience in building responsive,
           user-friendly web applications. Proficient in Next.js, React.js, JavaScript, and modern UI/UX principles.
           Passionate about creating seamless user experiences and optimizing web performance. Seeking to contribute my
           skills to dynamic projects and grow in a forward-thinking team.
@@ -18,7 +18,7 @@ export default function ResumeDetails() {
         <div className="space-y-2">
           <p>09930522381</p>
           <p>Bangate Barcelona Sorsogon</p>
-          <p>humsschavaria13ict@gmail.com</p>
+          <p>johnraphaelchavaria02@gmail.com</p>
         </div>
       </section>
 

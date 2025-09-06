@@ -22,7 +22,7 @@ export default function ResumePage() {
           </Button>
 
           <Button variant="outline" className="flex items-center gap-2" asChild>
-            <a href="/my-resume4.pdf" download="John_Raphael_Chavaria_Resume.pdf">
+            <a href="/my-resume-5.pdf" download="John_Raphael_Chavaria_Resume.pdf">
               <Download className="h-4 w-4" />
               Download Resume
             </a>
@@ -53,7 +53,7 @@ export default function ResumePage() {
               <div className="group relative rounded-lg border p-6 transition-all duration-300 hover:shadow-md">
                 <div className="mb-4 flex flex-wrap items-start justify-between gap-2">
                   <div>
-                    <h3 className="text-xl font-semibold">Associate Frontend Developer</h3>
+                    <h3 className="text-xl font-semibold">Jr. Frontend Developer</h3>
                     <p className="text-muted-foreground">Strastan Solutions Corp</p>
                   </div>
                   <div className="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
